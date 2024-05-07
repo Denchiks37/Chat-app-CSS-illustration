@@ -87,7 +87,7 @@ body {
 }
 
 .bg-left {
-  position: absolute;
+  position: fixed;
   background: linear-gradient(var(--light-magenta), var(--light-violet));
   width: 45%;
   height: 200%;
@@ -98,7 +98,7 @@ body {
 }
 
 .bg-right {
-  position: absolute;
+  position: fixed;
   background: linear-gradient(var(--light-magenta), var(--light-violet));
   opacity: 3%;
   width: 45%;
